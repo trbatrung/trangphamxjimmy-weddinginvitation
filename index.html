@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Trang & Jimmy – Wedding 18.10.2026</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400;600&family=Pinyon+Script&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet"/>
+  <style>
     :root {
       --gold:        #b8962e;
       --gold-light:  #d4b96a;
@@ -63,6 +64,12 @@
       object-position: center center;
       background: #e8e4de;
       filter: brightness(0.85);
+      animation: heroZoom 6s ease-out forwards;
+    }
+
+    @keyframes heroZoom {
+      from { transform: scale(1.08); opacity: 0; }
+      to   { transform: scale(1);    opacity: 1; }
     }
 
     #hero::after {
@@ -98,7 +105,7 @@
 
     .hero-names {
       font-family: 'Pinyon Script', cursive;
-      font-size: clamp(3rem, 13vw, 5.8rem);
+      font-size: clamp(3.5rem, 15vw, 7rem);
       color: var(--charcoal);
       line-height: 1.05;
     }
@@ -383,9 +390,9 @@
     <div class="rl"></div><div class="rd"></div><div class="rl r"></div>
   </div>
   <p class="body-copy reveal d2">
-    Quý khách đến dự Lễ Cưới của chúng tôi<br>
+    Quý khách đến dự Lễ Cưới của đôi bạn trẻ<br>
     <strong style="font-family:'Playfair Display',serif;color:var(--charcoal);font-weight:400;letter-spacing:.05em;font-size:1.4rem;">
-      Trang Phạm &amp; James Tran
+      TrangPham &amp; JamesTran
     </strong><br><br>
     <em>We are overjoyed to celebrate this moment with you.</em>
   </p>
