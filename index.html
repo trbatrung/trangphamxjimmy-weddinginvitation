@@ -21,11 +21,19 @@
     html { scroll-behavior: smooth; }
 
     body {
-      background: var(--cream);
+      background: #d6d0c8;
       color: var(--charcoal);
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 300;
       overflow-x: hidden;
+    }
+
+    .page-container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: var(--cream);
+      box-shadow: 0 0 80px rgba(0,0,0,0.12);
+      overflow: hidden;
     }
 
     /* ── Scroll reveal ── */
@@ -402,6 +410,7 @@
   </style>
 </head>
 <body>
+<div class="page-container">
 
 <!-- HERO -->
 <section id="hero">
@@ -546,6 +555,8 @@
   <p class="f-sub reveal d2">Hotel Nikko Saigon · Hồ Chí Minh</p>
   <p style="margin-top:24px;font-size:.55rem;opacity:.2;letter-spacing:.15em;color:#fff;">Made with ♡</p>
 </footer>
+
+</div><!-- end page-container -->
 
 <script>
   const els = document.querySelectorAll('.reveal');
