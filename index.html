@@ -68,9 +68,8 @@
       inset: 0;
       width: 100%;
       height: 100%;
-      object-fit: contain;
-      object-position: center center;
-      background: #e8e4de;
+      object-fit: cover;
+      object-position: center 20%;
       filter: brightness(0.85);
       animation: heroZoom 6s ease-out forwards;
     }
@@ -177,7 +176,7 @@
       letter-spacing: 0.38em;
       text-transform: uppercase;
       color: var(--gold);
-      margin-bottom: 14px;
+      margin-bottom: 16px;
     }
 
     h2.serif {
@@ -185,7 +184,8 @@
       font-weight: 400;
       font-size: clamp(1.5rem, 5vw, 2.2rem);
       color: var(--charcoal);
-      line-height: 1.3;
+      line-height: 1.4;
+      margin-bottom: 16px;
     }
     h2.serif em { font-style: italic; color: var(--gold); }
 
@@ -208,7 +208,7 @@
 
     .ev-block {
       text-align: center;
-      padding: 48px 0;
+      padding: 32px 0;
     }
 
     .ev-block + .ev-block {
@@ -543,7 +543,10 @@
 
         <div class="venue-block" style="margin-top:24px;">
           <p class="vname">Hotel Nikko Saigon</p>
-          <p class="vaddr">235 Nguyễn Văn Cừ, Phường Cầu Ông Lãnh<br>Quận 1, TP. Hồ Chí Minh</p>
+          <p class="vaddr">
+            235 Nguyễn Văn Cừ, Phường Cầu Ông Lãnh, Quận 1, TP. Hồ Chí Minh<br>
+            <em>235 Nguyen Van Cu St, Cau Ong Lanh Ward, District 1, Ho Chi Minh City</em>
+          </p>
           <a class="vmap" href="https://maps.google.com/?q=Hotel+Nikko+Saigon" target="_blank">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
@@ -563,14 +566,16 @@
   <h2 class="serif reveal">Trang phục · <em>Dress Code</em></h2>
   <p class="body-copy reveal d2">
     Quý khách vui lòng mặc trang phục tông màu Beige, Đen, Nâu hoặc Blush Pink.<br>
-    Không mặc màu trắng.<br>
-    <em>Please dress in Beige, Black, Brown or Blush Pink. No white please.</em>
+    <em>Please dress in Beige, Black, Brown or Blush Pink.</em><br><br>
+    <span style="font-size:0.72rem;color:var(--warm-grey);font-style:italic;">
+      Vui lòng tránh màu trắng · Please avoid white attire.
+    </span>
   </p>
   <div class="swatches reveal d3">
-    <div class="sw"><div class="sw-dot" style="background:#e8d5c4;"></div><span>Beige</span></div>
-    <div class="sw"><div class="sw-dot" style="background:#2c2c2c;"></div><span>Đen</span></div>
-    <div class="sw"><div class="sw-dot" style="background:#8B6343;"></div><span>Nâu</span></div>
-    <div class="sw"><div class="sw-dot" style="background:#f2a7b0;"></div><span>Blush Pink</span></div>
+    <div class="sw"><div class="sw-dot" style="background:#e8d5c4;"></div></div>
+    <div class="sw"><div class="sw-dot" style="background:#2c2c2c;"></div></div>
+    <div class="sw"><div class="sw-dot" style="background:#8B6343;"></div></div>
+    <div class="sw"><div class="sw-dot" style="background:#f2a7b0;"></div></div>
   </div>
 </div>
 
