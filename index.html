@@ -699,8 +699,16 @@
       <!-- Room / floor (shown if staying) -->
       <div class="rf-group" id="rf-room-wrap" style="display:none;">
         <label class="rf-label">Phòng / Tầng · Room / Floor</label>
-        <input class="rf-input" type="text" id="rf-room" placeholder="e.g. Room 502 · Floor 5"/>
-        <p class="rf-hint">Nếu chưa biết, bỏ qua · Leave blank if unknown</p>
+        <div class="rf-date-row">
+          <div class="rf-date-col">
+            <p class="rf-date-label">Số phòng · Room Number</p>
+            <input class="rf-input" type="number" id="rf-room" placeholder="e.g. 502" min="1"/>
+          </div>
+          <div class="rf-date-col">
+            <p class="rf-date-label">Tầng · Floor</p>
+            <input class="rf-input" type="number" id="rf-floor" placeholder="e.g. 5" min="1"/>
+          </div>
+        </div>
       </div>
 
       <!-- Check-in / Check-out -->
@@ -798,6 +806,8 @@
     const diet      = document.querySelector('#rf-diet .pill.active')?.dataset.val    || '';
     const hotel     = document.querySelector('#rf-hotel .pill.active')?.dataset.val   || '';
     const room      = document.getElementById('rf-room').value.trim();
+    const floor     = document.getElementById('rf-floor').value.trim();
+    const roomInfo  = room || floor ? `Room ${room} / Floor ${floor}` : '';
     const checkin   = document.getElementById('rf-checkin').value;
     const checkout  = document.getElementById('rf-checkout').value;
     const status    = document.getElementById('rf-status');
@@ -813,7 +823,7 @@
     const params = new URLSearchParams({
       name, attending, which,
       guests: guestCount,
-      diet, hotel, room, checkin, checkout,
+      diet, hotel, room: roomInfo, checkin, checkout,
       timestamp: new Date().toISOString()
     });
 
