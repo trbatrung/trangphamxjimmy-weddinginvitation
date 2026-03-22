@@ -29,7 +29,7 @@
     }
 
     .page-container {
-      max-width: 680px;
+      max-width: 780px;
       margin: 0 auto;
       background: var(--cream);
       box-shadow: 0 0 80px rgba(0,0,0,0.15);
@@ -79,11 +79,11 @@
     .hero-text {
       position: relative;
       z-index: 2;
-      padding: 0 36px 56px;
+      padding: 0 56px 64px;
       width: 100%;
     }
     .hero-label {
-      font-size: 0.56rem;
+      font-size: 0.68rem;
       letter-spacing: 0.42em;
       text-transform: uppercase;
       color: var(--gold-light);
@@ -92,7 +92,7 @@
     .hero-names {
       font-family: 'Cormorant Garamond', serif;
       font-weight: 300;
-      font-size: clamp(2.2rem, 9vw, 4rem);
+      font-size: clamp(1.8rem, 7vw, 3.2rem);
       color: #fff;
       line-height: 1.15;
       letter-spacing: 0.12em;
@@ -110,7 +110,7 @@
       text-transform: none;
     }
     .hero-date {
-      font-size: 0.6rem;
+      font-size: 0.72rem;
       letter-spacing: 0.38em;
       text-transform: uppercase;
       color: rgba(255,255,255,0.6);
@@ -132,13 +132,12 @@
     }
 
     /* ══ SHARED ══ */
-    .wrap { padding: 80px 44px; text-align: center; }
+    .wrap { padding: 80px 96px; text-align: center; max-width: 780px; margin: 0 auto; }
     .bg-beige { background: var(--beige); }
 
     .eyebrow {
       display: block;
-      font-size: 0.54rem;
-      letter-spacing: 0.44em;
+      font-size: 0.62rem;
       text-transform: uppercase;
       font-weight: 400;
       background: linear-gradient(90deg, #7a5c1e 0%, #c9a84c 35%, #f0d060 55%, #9a6f20 100%);
@@ -151,7 +150,7 @@
     .big-date {
       font-family: 'Cormorant Garamond', serif;
       font-weight: 300;
-      font-size: clamp(3rem, 12vw, 5.5rem);
+      font-size: clamp(2.2rem, 8vw, 4rem);
       letter-spacing: 0.04em;
       color: var(--charcoal);
       line-height: 1;
@@ -166,7 +165,7 @@
     }
 
     .body-copy {
-      font-size: 0.88rem;
+      font-size: 0.95rem;
       line-height: 2;
       color: var(--warm-grey);
       margin-top: 16px;
@@ -195,7 +194,7 @@
     .couple-name {
       font-family: 'Cormorant Garamond', serif;
       font-weight: 300;
-      font-size: clamp(1.8rem, 7vw, 2.8rem);
+      font-size: clamp(1.4rem, 5vw, 2.2rem);
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--charcoal);
@@ -211,7 +210,7 @@
     }
     .ev-item:last-child { border-bottom: 1px solid var(--mid-grey); }
     .ev-label {
-      font-size: 0.54rem;
+      font-size: 0.64rem;
       letter-spacing: 0.38em;
       text-transform: uppercase;
       color: var(--gold);
@@ -286,7 +285,7 @@
       text-transform: uppercase;
       color: var(--charcoal);
     }
-    .vaddr { font-size: 0.82rem; color: var(--warm-grey); line-height:1.9; margin-top:8px; }
+    .vaddr { font-size: 0.9rem; color: var(--warm-grey); line-height:1.9; margin-top:8px; }
     .vmap {
       display: inline-flex; align-items: center; gap:5px;
       margin-top:10px;
@@ -324,7 +323,7 @@
     .rsvp-content .eyebrow { color:var(--gold-light); }
     .rsvp-title {
       font-family:'Cormorant Garamond',serif;
-      font-size: clamp(2.2rem, 9vw, 3.5rem);
+      font-size: clamp(1.8rem, 7vw, 2.8rem);
       font-weight:300; letter-spacing:0.22em;
       text-transform:uppercase; color:#fff;
       margin-bottom:28px;
@@ -345,7 +344,7 @@
     .thankyou-title {
       font-family:'Cormorant Garamond',serif;
       font-weight:300;
-      font-size: clamp(2.2rem, 9vw, 3.8rem);
+      font-size: clamp(1.8rem, 7vw, 2.8rem);
       letter-spacing:0.22em; text-transform:uppercase;
       color:var(--charcoal);
     }
@@ -385,7 +384,7 @@
     }
     .rf-label {
       display: block;
-      font-size: 0.6rem;
+      font-size: 0.72rem;
       letter-spacing: 0.28em;
       text-transform: uppercase;
       color: var(--charcoal);
@@ -399,7 +398,7 @@
       border-bottom: 1px solid var(--mid-grey);
       padding: 10px 0;
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: var(--charcoal);
       outline: none;
       transition: border-color .2s;
@@ -407,7 +406,7 @@
     .rf-input:focus { border-bottom-color: var(--gold); }
     .rf-input::placeholder { color: var(--mid-grey); font-style: italic; }
     .rf-hint {
-      font-size: 0.58rem;
+      font-size: 0.72rem;
       color: var(--warm-grey);
       font-style: italic;
       margin-top: 6px;
@@ -421,9 +420,9 @@
     .pill {
       background: transparent;
       border: 1px solid var(--mid-grey);
-      padding: 8px 18px;
+      padding: 10px 20px;
       font-family: 'Josefin Sans', sans-serif;
-      font-size: 0.62rem;
+      font-size: 0.72rem;
       letter-spacing: 0.12em;
       color: var(--warm-grey);
       cursor: pointer;
@@ -498,6 +497,50 @@
     }
     .rf-status.success { color: #7a9e7e; }
     .rf-status.error   { color: #c0756a; }
+
+    /* ══ FAQ ACCORDION ══ */
+    .faq-item {
+      border-bottom: 1px solid var(--mid-grey);
+    }
+    .faq-q {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      color: var(--charcoal);
+      cursor: pointer;
+      text-align: left;
+      transition: color .2s;
+    }
+    .faq-q:hover { color: var(--gold); }
+    .faq-icon {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 200;
+      color: var(--gold);
+      transition: transform .3s;
+      flex-shrink: 0;
+      margin-left: 16px;
+    }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+    }
+    .faq-item.open .faq-a { max-height: 400px; padding-bottom: 20px; }
+    .faq-a p {
+      font-size: 0.88rem;
+      line-height: 1.9;
+      color: var(--warm-grey);
+    }
   </style>
 </head>
 <body>
@@ -507,12 +550,13 @@
 <section id="hero">
   <img id="hero-img" src="TRANGPHAM WEDDING1 B&W.jpg" alt="Trang Phạm & James Tran"/>
   <div class="hero-text">
+    <p class="hero-label reveal d1">Wedding Invitation</p>
     <h1 class="hero-names reveal d1">
       Trang Pham
       <span class="and-small">and</span>
       James Tran
     </h1>
-    <p class="hero-date reveal d2">18 · October · 2026 &nbsp;·&nbsp; Hồ Chí Minh</p>
+    <p class="hero-date reveal d2">18 · October · 2026 &nbsp;·&nbsp; Ho Chi Minh City</p>
   </div>
   <div class="scroll-cue">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -522,110 +566,72 @@
   </div>
 </section>
 
-<!-- OPENING -->
-<div class="wrap">
-  <span class="eyebrow reveal">Trân trọng kính mời</span>
-  <div class="thin-rule reveal d1"></div>
-  <p class="body-copy reveal d1" style="font-size:0.7rem;">
-    Chúng tôi trân trọng kính mời Quý khách đến dự Lễ Cưới<br>
-    <em>We joyfully invite you to celebrate our Wedding</em>
-  </p>
-  <p class="couple-name reveal d3">Trang Pham<br><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.2rem;font-weight:300;letter-spacing:0.2em;text-transform:none;">&amp;</span><br>James Tran</p>
-  <div class="thin-rule reveal d3"></div>
-</div>
-
 <!-- SCHEDULE -->
 <div class="bg-beige">
   <div class="wrap">
-    <span class="eyebrow reveal">Lịch trình · Schedule</span>
-    <div class="big-date reveal d1" style="font-size:clamp(1.8rem,6vw,3rem);">18 OCT 2026</div>
-    <p class="sub-heading reveal d1">Chủ Nhật · Sunday</p>
+    <span class="eyebrow reveal">Schedule</span>
+    <p class="reveal d1" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(1.4rem,4vw,2rem);letter-spacing:0.1em;color:var(--charcoal);margin-top:8px;">18 October 2026 &nbsp;·&nbsp; Sunday<br><span style="font-family:'Josefin Sans',sans-serif;font-size:0.65em;font-weight:300;letter-spacing:0.1em;color:var(--warm-grey);">Chủ Nhật, 18 tháng 10, 2026</span></p>
 
     <div class="ev-stack" style="margin-top:20px;">
-
-      <!-- LỄ THÀNH HÔN -->
       <div class="ev-item reveal d1" style="border-top:none;padding-top:0;border-bottom:none;">
-        <p class="ev-label">Lễ chính · Main Celebration</p>
-        <p class="ev-name" style="font-size:clamp(1.8rem,6vw,2.6rem);">Lễ Thành Hôn</p>
-        <p class="ev-name-vi" style="font-size:1.05rem;color:var(--warm-grey);">Wedding Ceremony &amp; Reception</p>
+        <p class="ev-label">Main Celebration</p>
+        <p class="ev-name" style="font-size:clamp(1.6rem,5vw,2.2rem);">Lễ Thành Hôn</p>
+        <p class="ev-name-vi" style="font-size:1.05rem;color:var(--warm-grey);">Wedding Ceremony</p>
         <div style="margin: 32px 0 8px;">
           <svg width="100%" viewBox="0 0 520 132" xmlns="http://www.w3.org/2000/svg">
-
-            <!-- Timeline horizontal line -->
             <line x1="80" y1="82" x2="440" y2="82" stroke="#c9a84c" stroke-width="0.8" opacity="0.6"/>
             <line x1="80"  y1="76" x2="80"  y2="88" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/>
             <line x1="260" y1="76" x2="260" y2="88" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/>
             <line x1="440" y1="76" x2="440" y2="88" stroke="#c9a84c" stroke-width="0.8" opacity="0.7"/>
-
-            <!-- Icons -->
             <image href="rings.png"           x="62"  y="24" width="35" height="35" opacity="0.75"/>
             <image href="toast.png"           x="242" y="24" width="35" height="35" opacity="0.75"/>
             <image href="romantic-dinner.png" x="422" y="24" width="35" height="35" opacity="0.75"/>
-
-            <!-- Time labels -->
             <text x="80"  y="100" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="16" fill="#1e1e1e" opacity="0.85">16:00</text>
             <text x="260" y="100" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="16" fill="#1e1e1e" opacity="0.85">17:00</text>
             <text x="440" y="100" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="16" fill="#1e1e1e" opacity="0.85">18:00</text>
-
-            <!-- Event name labels -->
-            <text x="80"  y="114" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="8" fill="#7a756e" letter-spacing="0.08em">LỄ VOWS</text>
-            <text x="80"  y="124" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="7" fill="#7a756e" letter-spacing="0.06em" opacity="0.7">Vow Ceremony</text>
-            <text x="260" y="114" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="8" fill="#7a756e" letter-spacing="0.08em">COCKTAIL</text>
-            <text x="260" y="124" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="7" fill="#7a756e" letter-spacing="0.06em" opacity="0.7">Cocktail Hour</text>
-            <text x="440" y="114" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="8" fill="#7a756e" letter-spacing="0.08em">TIỆC</text>
-            <text x="440" y="124" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="7" fill="#7a756e" letter-spacing="0.06em" opacity="0.7">Party</text>
-
+            <text x="80"  y="114" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="10" fill="#7a756e" letter-spacing="0.08em">VOW CEREMONY</text>
+            <text x="80"  y="126" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="9" fill="#7a756e" letter-spacing="0.06em" opacity="0.7">Lễ Vows</text>
+            <text x="260" y="114" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="10" fill="#7a756e" letter-spacing="0.08em">COCKTAIL HOUR</text>
+            <text x="260" y="126" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="9" fill="#7a756e" letter-spacing="0.06em" opacity="0.7">Giờ Cocktail</text>
+            <text x="440" y="114" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="10" fill="#7a756e" letter-spacing="0.08em">RECEPTION</text>
+            <text x="440" y="126" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="9" fill="#7a756e" letter-spacing="0.06em" opacity="0.7">Tiệc Cưới</text>
           </svg>
         </div>
-
         <div class="venue-wrap">
           <p class="vname">Hotel Nikko Saigon</p>
           <p class="vaddr" style="max-width:320px;margin:4px auto 0;">
-            235 Nguyễn Văn Cừ, Phường Cầu Ông Lãnh,<br>Quận 1, TP. Hồ Chí Minh<br>
-            <em>235 Nguyen Van Cu St, Cau Ong Lanh Ward,<br>District 1, Ho Chi Minh City</em>
+            <em>235 Nguyen Van Cu St, Cau Ong Lanh Ward, District 1, Ho Chi Minh City</em>
           </p>
-          <a class="vmap" href="https://maps.google.com/?q=Hotel+Nikko+Saigon" target="_blank">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
-              <circle cx="12" cy="9" r="2.5"/>
-            </svg>
-            Xem bản đồ · View Map
+          <div style="margin-top:20px;display:inline-block;border:1px solid var(--gold-light);padding:14px 24px;">
+            <p style="font-size:0.6rem;letter-spacing:0.28em;text-transform:uppercase;color:var(--warm-grey);margin-bottom:6px;">Wedding Promo Code</p>
+            <p style="font-family:'Josefin Sans',sans-serif;font-weight:300;font-size:1.4rem;letter-spacing:0.3em;color:var(--charcoal);">WD181026</p>
+          </div>
+          <br>
+          <a href="https://be.synxis.com/?adult=1&arrive=2026-03-16&chain=9542&child=0&currency=USD&depart=2026-03-17&hotel=53544&level=hotel&locale=en-US&productcurrency=VND&rooms=1&src=onhm" target="_blank" style="display:inline-block;margin-top:14px;background:var(--charcoal);color:var(--gold-light);padding:12px 28px;font-family:'Josefin Sans',sans-serif;font-size:0.66rem;letter-spacing:0.24em;text-transform:uppercase;text-decoration:none;">
+            Book Now
           </a>
+          <div style="margin-top:14px;">
+            <a class="vmap" href="https://maps.google.com/?q=Hotel+Nikko+Saigon" target="_blank">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.5"/>
+              </svg>
+              View Map
+            </a>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>
 
-<!-- DRESS CODE -->
-<div class="wrap">
-  <span class="eyebrow reveal">Trang phục · Dress Code</span>
-  <p class="body-copy reveal d1">
-    Quý khách vui lòng mặc trang phục tông màu Beige, Đen, Nâu hoặc Blush Pink.<br>
-    <em>Please dress in Beige, Black, Brown or Blush Pink.</em>
-  </p>
-  <div class="swatches reveal d2">
-    <div class="sw-dot" style="background:#e8d5c4;"></div>
-    <div class="sw-dot" style="background:#2c2c2c;"></div>
-    <div class="sw-dot" style="background:#8B6343;"></div>
-    <div class="sw-dot" style="background:#f2a7b0;"></div>
-  </div>
-  <p class="body-copy reveal d3" style="font-size:0.68rem;font-style:italic;margin-top:14px;">
-    Vui lòng tránh màu trắng · Please avoid white attire.
-  </p>
-</div>
-
 <!-- RSVP -->
-<div class="bg-beige">
-  <div class="wrap">
-    <span class="eyebrow reveal">Xác nhận tham dự · RSVP</span>
-    <div class="big-date reveal d1" style="font-size:clamp(2rem,7vw,3rem);letter-spacing:0.12em;">RSVP</div>
+<div class="wrap">
+    <div class="big-date reveal d1" style="font-size:clamp(1.6rem,5vw,2.4rem);letter-spacing:0.12em;">RSVP</div>
 
     <div class="reveal d1" style="margin-top:28px;display:inline-block;border:1px solid var(--gold-light);padding:18px 32px;">
       <p style="font-size:0.52rem;letter-spacing:0.36em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Vui lòng xác nhận trước</p>
-      <p style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,5vw,2.2rem);font-weight:300;letter-spacing:0.08em;color:var(--charcoal);line-height:1;">01 / 08 / 2026</p>
-      <p style="font-size:0.62rem;letter-spacing:0.1em;color:#5a5650;margin-top:8px;font-style:italic;">Please confirm by 1st August 2026</p>
+      <p style="font-family:'Josefin Sans',sans-serif;font-size:clamp(1.4rem,5vw,2rem);font-weight:300;letter-spacing:0.12em;color:var(--charcoal);line-height:1.2;">1 August 2026</p>
     </div>
 
     <div class="rsvp-form reveal d2">
@@ -645,7 +651,7 @@
         </div>
       </div>
 
-      <!-- Guest count -->
+      <!-- Guest count + dynamic name fields -->
       <div class="rf-group">
         <label class="rf-label">Số người đi kèm · Number of guests</label>
         <div class="rf-stepper">
@@ -654,14 +660,25 @@
           <button type="button" class="step-btn" id="step-plus">+</button>
         </div>
         <p class="rf-hint">Không tính bản thân · Not including yourself</p>
+        <div id="guest-name-fields" style="margin-top:16px;"></div>
       </div>
 
-      <!-- Vegetarian -->
+      <!-- Dietary -->
       <div class="rf-group">
-        <label class="rf-label">Chế độ ăn · Dietary</label>
-        <div class="rf-pills" id="rf-diet">
-          <button type="button" class="pill" data-val="Không · Regular">Không · Regular</button>
-          <button type="button" class="pill" data-val="Ăn chay · Vegetarian">🌿 Ăn chay · Vegetarian</button>
+        <label class="rf-label">Chế độ ăn đặc biệt · Special Dietary <span class="rf-req">*</span></label>
+        <div class="rf-pills" id="rf-dietary">
+          <button type="button" class="pill" data-val="No">Không · No</button>
+          <button type="button" class="pill" data-val="Yes">Có · Yes</button>
+        </div>
+        <div id="dietary-detail" style="display:none;margin-top:16px;">
+          <p class="rf-hint" style="margin-bottom:12px;">Vui lòng chọn loại dị ứng · Please select all that apply</p>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;" id="rf-allergy-options">
+            <button type="button" class="pill" data-val="Shellfish">🦐 Shellfish</button>
+            <button type="button" class="pill" data-val="Dairy">🥛 Dairy</button>
+            <button type="button" class="pill" data-val="Peanuts">🥜 Peanuts</button>
+            <button type="button" class="pill" data-val="Other">Other</button>
+          </div>
+          <input class="rf-input" type="text" id="rf-allergy-other" placeholder="Please specify..." style="display:none;margin-top:12px;"/>
         </div>
       </div>
 
@@ -671,23 +688,69 @@
       </button>
       <p class="rf-status" id="rf-status"></p>
 
-      <!-- Hotel booking -->
-      <div style="border-top:1px solid var(--mid-grey);padding-top:28px;margin-top:32px;">
-        <label class="rf-label">Đặt phòng khách sạn · Hotel Booking</label>
-        <p class="rf-hint" style="margin-bottom:16px;">Sử dụng mã ưu đãi dành riêng cho đám cưới · Use our exclusive wedding promo code</p>
-        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
-          <div>
-            <p style="font-size:0.52rem;letter-spacing:0.24em;text-transform:uppercase;color:var(--warm-grey);margin-bottom:6px;">Mã · Code</p>
-            <span style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;letter-spacing:0.2em;color:var(--charcoal);border-bottom:1px solid var(--gold-light);padding-bottom:2px;">WD181026</span>
-          </div>
-          <a href="https://be.synxis.com/?adult=1&arrive=2026-03-16&chain=9542&child=0&currency=USD&depart=2026-03-17&hotel=53544&level=hotel&locale=en-US&productcurrency=VND&rooms=1&src=onhm" target="_blank" style="display:inline-block;background:var(--charcoal);color:var(--gold-light);padding:11px 22px;font-family:'Josefin Sans',sans-serif;font-size:0.56rem;letter-spacing:0.24em;text-transform:uppercase;text-decoration:none;">
-            Đặt phòng · Book Now
-          </a>
-        </div>
-      </div>
-
     </div>
+</div>
+
+<!-- FAQ -->
+<div class="bg-beige">
+  <div class="wrap" style="padding-bottom:80px;">
+  <span class="eyebrow reveal">FAQ</span>
+  <div class="big-date reveal d1" style="font-size:clamp(1.4rem,5vw,2rem);letter-spacing:0.1em;">Good to Know</div>
+
+  <div style="margin-top:40px;text-align:left;" class="reveal d1">
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        First time in Vietnam?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Welcome to Saigon! The local currency is VND — cards are widely accepted at the hotel but cash is handy for street food and small shops. October is warm and humid, so light clothing works best outside. The city is vibrant and easy to get around.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        Getting from the airport
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Fly into <strong>Tan Son Nhat International Airport, Terminal 2</strong> (domestic) or Terminal 1 (international). We recommend using <strong>Grab</strong> to book your ride to the hotel. Please avoid taxis approached by strangers inside the terminal — always book via the Grab app or official taxi counters only.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        How to use Grab
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Download the <strong>Grab app</strong> before you arrive. Set your pickup to "Tan Son Nhat Airport" and destination to "Hotel Nikko Saigon, 235 Nguyen Van Cu, District 1." Payment can be cash or card in-app. Estimated ride: 20–30 minutes, approx. 150,000–200,000 VND (~$6–8 USD).</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        What should I wear?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">
+        <p>The dress code is <strong>elegant attire</strong> — think cocktail dress or a smart suit. The venue is fully air-conditioned so a light layer is welcome. Please avoid white out of respect for the bride.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        Still have questions?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">
+        <p>Feel free to reach out to Trang &amp; James directly — we're happy to help make your trip as smooth as possible.</p>
+      </div>
+    </div>
+
   </div>
+</div>
 </div>
 
 <!-- THANK YOU -->
@@ -704,8 +767,8 @@
 <!-- FOOTER -->
 <footer>
   <p class="f-names reveal">Trang &amp; James</p>
-  <p class="f-date reveal d1">18 · October · 2026</p>
-  <p class="f-sub reveal d2">Hotel Nikko Saigon · Hồ Chí Minh</p>
+  <p class="f-date reveal d1">18 · October · 2026 &nbsp;·&nbsp; Chủ Nhật</p>
+  <p class="f-sub reveal d2">Hotel Nikko Saigon · Ho Chi Minh City</p>
   <p style="margin-top:20px;font-size:.5rem;opacity:.15;letter-spacing:.15em;color:#fff;">Made with ♡</p>
 </footer>
 
@@ -720,38 +783,77 @@
   // ── RSVP FORM ──
   const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyAnR52fB3yNWG6w4DpdnG5tuL8Us1M7X9Oc90EFNCbbMYqfF9Jr6MOicNA9mWAtof6/exec';
 
-  // pill toggle (single select)
-  document.querySelectorAll('.rf-pills').forEach(group => {
+  // Single-select pill groups
+  document.querySelectorAll('#rf-attending, #rf-dietary').forEach(group => {
     group.querySelectorAll('.pill').forEach(btn => {
       btn.addEventListener('click', () => {
         group.querySelectorAll('.pill').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-
-        // hide which-part if not attending
+        if (group.id === 'rf-dietary') {
+          document.getElementById('dietary-detail').style.display =
+            btn.dataset.val === 'Yes' ? 'block' : 'none';
+        }
       });
     });
   });
 
-  // stepper
-  let guestCount = 0;
-  document.getElementById('step-minus').addEventListener('click', () => {
-    if (guestCount > 0) { guestCount--; document.getElementById('step-val').textContent = guestCount; }
-  });
-  document.getElementById('step-plus').addEventListener('click', () => {
-    guestCount++;
-    document.getElementById('step-val').textContent = guestCount;
+  // Multi-select allergy pills
+  document.querySelectorAll('#rf-allergy-options .pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+      const otherActive = document.querySelector('#rf-allergy-options .pill[data-val="Other"]')?.classList.contains('active');
+      document.getElementById('rf-allergy-other').style.display = otherActive ? 'block' : 'none';
+    });
   });
 
-  // submit
+  // Dynamic guest name fields
+  let guestCount = 0;
+  function updateGuestFields() {
+    const container = document.getElementById('guest-name-fields');
+    const current = container.querySelectorAll('input').length;
+    if (guestCount > current) {
+      for (let i = current + 1; i <= guestCount; i++) {
+        const wrap = document.createElement('div');
+        wrap.style.marginBottom = '12px';
+        wrap.innerHTML = `<p class="rf-hint" style="margin-bottom:4px;">Guest ${i} · Khách ${i}</p>
+          <input class="rf-input guest-name" type="text" placeholder="Full name · Họ và tên" data-guest="${i}"/>`;
+        container.appendChild(wrap);
+      }
+    } else {
+      const inputs = container.querySelectorAll('div');
+      for (let i = inputs.length; i > guestCount; i--) {
+        container.removeChild(inputs[i - 1]);
+      }
+    }
+  }
+
+  document.getElementById('step-minus').addEventListener('click', () => {
+    if (guestCount > 0) { guestCount--; document.getElementById('step-val').textContent = guestCount; updateGuestFields(); }
+  });
+  document.getElementById('step-plus').addEventListener('click', () => {
+    guestCount++; document.getElementById('step-val').textContent = guestCount; updateGuestFields();
+  });
+
+  // Submit
   document.getElementById('rf-submit-btn').addEventListener('click', async () => {
     const name      = document.getElementById('rf-name').value.trim();
     const attending = document.querySelector('#rf-attending .pill.active')?.dataset.val || '';
-    const diet      = document.querySelector('#rf-diet .pill.active')?.dataset.val    || '';
+    const dietary   = document.querySelector('#rf-dietary .pill.active')?.dataset.val || '';
     const status    = document.getElementById('rf-status');
     const btn       = document.getElementById('rf-submit-btn');
 
     if (!name)      { status.textContent = 'Vui lòng nhập họ tên · Please enter your name.'; status.className = 'rf-status error'; return; }
     if (!attending) { status.textContent = 'Vui lòng chọn tham dự · Please select attendance.'; status.className = 'rf-status error'; return; }
+
+    const guestNames = [...document.querySelectorAll('.guest-name')].map(i => i.value.trim()).filter(Boolean).join(', ');
+
+    let allergies = '';
+    if (dietary === 'Yes') {
+      const selected = [...document.querySelectorAll('#rf-allergy-options .pill.active')].map(b => b.dataset.val);
+      const other = document.getElementById('rf-allergy-other').value.trim();
+      if (other) selected.push(other);
+      allergies = selected.join(', ');
+    }
 
     btn.disabled = true;
     status.textContent = 'Đang gửi · Sending...';
@@ -760,7 +862,9 @@
     const params = new URLSearchParams({
       name, attending,
       guests: guestCount,
-      diet,
+      guestNames: guestNames || 'N/A',
+      dietary,
+      allergies: allergies || 'None',
       timestamp: new Date().toISOString()
     });
 
@@ -775,6 +879,13 @@
       btn.disabled = false;
     }
   });
+
+  function toggleFaq(btn) {
+    const item = btn.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
 
   window.addEventListener('load', () => {
     document.querySelectorAll('#hero .reveal').forEach(el => el.classList.add('visible'));
